@@ -22,11 +22,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get( '/Home', function(){
-    return 'Bienvenido a NutriGym';
-});
-
-Route::get('/Nosotros', [NosotrosController::class, 'vernosotros']);
 
 Route::get('/Login', [LoginController::class, 'verlogin']);
 
@@ -34,4 +29,4 @@ Route::get('/Register', [RegisterController::class, 'verregister']);
 
 Route::get('/HomeUsuario', [HomeusuarioController::class, 'verhomeusuario']);
 
-Route::get('/Recetas', [RecetasController::class, 'indexrecetas']);
+Route::get('/Recetas', [RecetasController::class, 'verrecetas']);

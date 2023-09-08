@@ -6,9 +6,9 @@ use Illuminate\Http\Request;
 
 class RecetasController extends Controller
 {
-    public function indexrecetas()
+    public function verrecetas()
     {
-        return view('Recetas.verrecetas');
+        return view('Recetas.indrecetas');
     }
 
     public function selecRecetas()
