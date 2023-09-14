@@ -3,15 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style/Login.css">
-        <title> MiNutriGym Form Login</title> 
+        <link rel="stylesheet" href="style/Register.css">
+        <title> MiNutriGym Form Register</title> 
     </head>
 
 <body>
 
-<div class="login-box">
+<div class="register-box">
     <img href="#" class="logito" src="img/Logo.png" alt="Fondo">
-    <h1>Iniciar Sesión</h1>
+    <h1>Registrarse</h1>
     <form>
         <!-- Tipo de Usuario --> 
         <label for="Tipo Doc">Tipo de Usuario</label>
@@ -33,15 +33,17 @@
         <label for="N.o Documento">Número de Identificación</label>
         <input type="text" Placeholder="Ingrese su ID">
 
+        <!--Email-->
+        <label for="email">Correo</label>
+        <input type="email" placeholder="Ingrese su correo">
+
         <!-- Contraseña --> 
         <label for="password">Contraseña</label>
-        <input type="Contraseña" placeholder="Ingrese su Contraseña">
+        <input type="Contraseña" placeholder="Ingrese la Contraseña">
 
-        <input type="submit" value="Log In">
+        <input type="submit" value="Register">
 
-        <a href="#">¿Olvidaste tu contraseña?</a>
-        <br>
-        <a href="/Register">¿Aun no te has registrado?</a>
+        <a href="/Login">¿Ya tienes una cuenta?</a>
     </form>
 </div>
 

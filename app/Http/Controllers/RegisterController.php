@@ -8,6 +8,9 @@ class RegisterController extends Controller
 {
     public function verregister()
     {
-        return view('Home/indregister');
+        
+        return view ('Home.indregister');
     }
+    
+    
 }

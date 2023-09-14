@@ -1,19 +1,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-html{
-    font-size: 62.5%;
-    font-family: 'Poppins', sans-serif;
-}
-*{
+*{  
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.full-container {
+    max-width: 120rem;
+    margin: 0 10px;
 }
 
 .container {
     max-width: 120rem;
-    margin: 0 auto;
+    margin: 0 ;
+    align-items: center;
 }
 
 .nav-linkR{
@@ -33,6 +36,7 @@ html{
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
+    margin: 0 20px;
 }
 .navbar .fa-bars{
     display: none;
@@ -132,6 +136,7 @@ html{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 48px;
+    
 }
 
 .cartareceta{
@@ -145,6 +150,11 @@ html{
     cursor:pointer;
     position: relative;
     overflow: hidden;
+}
+
+.contenedorimg img{
+    width: 400px;
+    height: 200px;
 }
 
 .contenedor-recetas h3{
@@ -169,6 +179,7 @@ html{
     margin: 48px 0 80px;
     display: inline-block;
     cursor: pointer;
+    transition: 500ms;
 }
 
 .btn-ver-receta:hover{
