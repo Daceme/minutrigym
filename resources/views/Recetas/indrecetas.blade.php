@@ -1,13 +1,13 @@
 @extends('HomeUsuario.indhomeusuario')
 @section('Recetas')
 
-<script src="https://kit.fontawesome.com/724bb47f14.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="style/verrecetas.css">
+ <script src="https://kit.fontawesome.com/724bb47f14.js" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="style/ERecetas/estilorecetas.css">
  <div class="full-container">
 
      <div class="container-navbar">
 
-        <nav class= "navbar container">
+        <nav class= "navbar-container">
             <i class="fa-solid fa-bars"></i>
             <ul class="categoría-recet">
                 <li>
@@ -30,14 +30,14 @@
         
      </div>
 
-    <section class="container recetas">
+     <section class="container-r recetas">
         <br>
         <h1 class="heading-1">Recetas Principales</h1>
 
         <div class="contenedor-recetas">
             <div class="cartareceta">
                 <div class="contenedorimg">
-                    <img src="img/imgR/R1.png" alt="Imagen Ensalada Rusa con Pollo">
+                    <img src="img/imgRe/R1.png" alt="Imagen Ensalada Rusa con Pollo">
                     <div class="inf-ensalada">
                         <h3>Ensalada Rusa con pollo</h3>
                         <p>Ensalada compuesta por papa y 
@@ -48,7 +48,7 @@
             </div>
             <div class="cartareceta">
                 <div class="contenedorimg">
-                    <img src="img/imgR/R2.png" alt="Imagen Batido de Banano">
+                    <img src="img/imgRe/R2.png" alt="Imagen Batido de Banano">
                     <div class="inf-batido">
                         <h3>Batido de Banano</h3>
                         <p>Batido de plátano/banano con bastante 
@@ -59,7 +59,7 @@
             </div>
             <div class="cartareceta">
                 <div class="contenedorimg">
-                    <img src="img/imgR/R3.png" alt="Imagen Ensalada con Pollo y Huevo">
+                    <img src="img/imgRe/R3.png" alt="Imagen Ensalada con Pollo y Huevo">
                     <div class="inf-ensalada">
                         <h3>Ensalada con pollo y huevo</h3>
                         <p>Ensalada de lechuga, tomate, pollo y huevo nutritiva y balanceada</p>
@@ -69,7 +69,7 @@
             </div>
             <div class="cartareceta">
                 <div class="contenedorimg">
-                    <img src="img/imgR/R4.png" alt="Imagen Rollitos de Espinaca">
+                    <img src="img/imgRe/R4.png" alt="Imagen Rollitos de Espinaca">
                     <div class="inf-ensalada">
                         <h3>Rollitos de Espinaca</h3>
                         <p>Rollitos de espinaca rellenos de queso y jamón</p>
@@ -79,9 +79,9 @@
             </div>
             <div class="cartareceta">
                 <div class="contenedorimg">
-                    <img src="img/imgR/R5.png" alt="Imagen Galletas de avena y plátano">
+                    <img src="img/imgRe/R5.png" alt="Imagen Galletas de avena y plátano">
                     <div class="inf-ensalada">
-                        <h3>Galletas de Avena y Plátano</h3>
+                        <h3>Galletas de Avena y Banano</h3>
                         <p>Excelente Snack hecho solo con avena y banano</p>
                          <div class="btn-ver-receta">Ver receta</div>
                     </div>
@@ -89,7 +89,7 @@
             </div>
             <div class="cartareceta">
                 <div class="contenedorimg">
-                    <img src="img/imgR/R6.png" alt="Imagen Arroz con atún y verdura">
+                    <img src="img/imgRe/R6.png" alt="Imagen Arroz con atún y verdura">
                     <div class="inf-ensalada">
                         <h3>Arroz fit con atún</h3>
                         <p>Un arroz con atún, verduras y maíz bastante completo</p>

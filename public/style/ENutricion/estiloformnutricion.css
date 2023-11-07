@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.allformu{
+    background-color: #d6d6d6;
+    padding-bottom: 50px;
+    font-family: 'Poppins';
+}
+.calendario{
+
+    height: 80px;
+    width: 70px;
+
+}
+
+.calenImag{
+    height: 70px;
+    width: 70px;  /*tamaño*/
+    margin-left: 1260px;
+    margin-top:-20px;
+    
+    
+
+    
+}
+
+.calenImag:hover{
+    
+    width: 90px;
+    height: 90px;
+    background-color: rgba(255, 238, 0, 0.123) ;
+    box-shadow: 2px 2px 2px 2px;
+
+
+}
+
+.perfil-Imag:hover{
+
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 238, 0, 0.123) ;
+
+}
+
+
+.imagen1 {
+     
+    width: 200px;
+    height: 200px;
+    margin-left: 20px ;
+    box-shadow: 5px 5px 5px 5px;
+    color: rgb(255, 238, 0);
+}
+
+.imagen1:hover {
+
+    width: 210px;
+    height: 210px;
+    background-color: rgb(255, 238, 0) ;
+}
+
+
+.imagen2 {
+     
+    width: 200px;
+    height: 200px;
+    margin-left: 20px ;
+    box-shadow: 5px 5px 5px 5px;
+    color: rgb(255, 238, 0);
+}
+
+.imagen2:hover {
+
+ 
+
+    width: 210px;
+    height: 210px;
+    background-color: rgb(255, 238, 0) ;
+}
+.imagen3 {
+     
+    width: 200px;
+    height: 200px;
+    margin-left: 20px ;
+    box-shadow: 5px 5px 5px 5px;
+    color: rgb(255, 238, 0);
+
+    
+}
+
+.imagen3:hover {
+
+
+    width: 210px;
+    height: 210px;
+    background-color: rgb(255, 238, 0) ;
+}
+
+.imagen4 {
+
+ 
+    width: 200px;
+    height: 200px;
+    margin-left: 20px ;
+    box-shadow: 5px 5px 5px 5px;
+    color: rgb(255, 238, 0);
+}
+
+.imagen4:hover{
+
+    width: 210px;
+    height: 210px;
+    background-color: rgb(255, 238, 0) ;
+}
+
+.contenedor{
+
+    justify-content: center;
+    display: flex;
+    padding: 100px 0;
+    
+}
+
+.allformu p{
+   
+    margin-top: 100px;
+    font-size: 25px;
+    font-family: 'Poppins' ;
+    text-align: center;
+    
+   
+
+}
+
+.allformu h1{
+    
+    font: 'Poppins',  ;
+    text-align: center;
+    font-size: 50px; 
+    padding: 50px 0;
+   
+    
+
+}
+
+.allformu h4{
+    font: 'Poppins' ;
+    text-align: center;
+}
+
+.peso {
+     
+    width: 200px;
+    height: 200px;
+    margin-left: 20px ;
+    box-shadow: 5px 5px 5px 5px;
+    color: rgb(255, 238, 0);
+}
+
+.peso:hover {
+
+ 
+
+    width: 210px;
+    height: 210px;
+    background-color: rgb(255, 238, 0) ;
+}
+.forma {
+     
+    width: 200px;
+    height: 200px;
+    margin-left: 20px ;
+    box-shadow: 5px 5px 5px 5px;
+    color: rgb(255, 238, 0);
+
+    
+}
+
+.forma:hover {
+
+
+    width: 210px;
+    height: 210px;
+    background-color: rgb(255, 238, 0) ;
+}
+
+.muscu {
+
+ 
+    width: 200px;
+    height: 200px;
+    margin-left: 20px ;
+    box-shadow: 5px 5px 5px 5px;
+    color: rgb(255, 238, 0);
+}
+
+.muscu:hover{
+
+    width: 210px;
+    height: 210px;
+    background-color: rgb(255, 238, 0) ;
+}
+
+
+
+.relle {
+     
+    width: 200px;
+    height: 200px;
+    margin-left: 20px ;
+    box-shadow: 5px 5px 5px 5px;
+    color: rgb(255, 238, 0);
+}
+
+.relle:hover {
+
+ 
+
+    width: 210px;
+    height: 210px;
+    background-color: rgb(255, 238, 0) ;
+}
+.extra {
+     
+    width: 200px;
+    height: 200px;
+    margin-left: 20px ;
+    box-shadow: 5px 5px 5px 5px;
+    color: rgb(255, 238, 0);
+
+    
+}
+
+.extra:hover {
+
+
+    width: 210px;
+    height: 210px;
+    background-color: rgb(255, 238, 0) ;
+}
+
+.regular {
+
+ 
+    width: 200px;
+    height: 200px;
+    margin-left: 20px ;
+    box-shadow: 5px 5px 5px 5px;
+    color: rgb(255, 238, 0);
+}
+
+.regular:hover{
+
+    width: 210px;
+    height: 210px;
+    background-color: rgb(255, 238, 0) ;
+}
+
+.normal {
+
+ 
+    width: 200px;
+    height: 200px;
+    margin-left: 20px ;
+    box-shadow: 5px 5px 5px 5px;
+    color: rgb(255, 238, 0);
+}
+
+.normal:hover{
+
+    width: 210px;
+    height: 210px;
+    background-color: rgb(255, 238, 0) ;
+}
+
+
+
+.allformu form{
+    color: rgb(0, 0, 0);
+    font: 5px ;
+    text-align: center;
+    background: #ffd900c5;
+    width: 320px;
+    margin: 20px auto;
+    border: 2px solid rgb(15, 48, 0);
+    padding: 20px;
+    box-shadow: 10px 10px 10px 10px;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins';
+   
+}
+
+.allformu input{
+width: 270px;
+border-radius: 5px ;
+border:none ;
+height: 25px;
+margin: 8px;
+
+
+}
+.datosformu p{
+    margin: 10px;
+    font-size: 16px;
+    font-family: 'Poppins' ;
+    text-align: center;
+}
+.registrar{
+width: 100px;
+margin: 20px auto;
+cursor: pointer;
+}
+
+.allformu label{
+    font-family: 'Poppins';
+}
+.allformu select{
+    
+    
+    text-align: center;
+    width: 300px;
+    margin: 20px auto;
+    font-family: 'Poppins';
+    
+}
+
+.allformu i{
+
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+    font-family: 'Poppins' ;
+    text-align: center;
+    
+   
+}
+
+.nutricionistas img{
+    width: 220px;
+    height: 220px;
+    margin-left: 60px ;
+    margin-top: -160px;
+    box-shadow: 5px 5px 5px 5px;
+    color: rgb(255, 238, 0);
+}
+.nutricionistas img:hover{
+
+    width: 230px;
+    height: 230px;
+    background-color: rgb(255, 238, 0) ;
+}
+
+/* Boton siquiente */
+.btn-sig{
+    height: 60px;
+}
+.btn-sig a{
+    display: inline-block;
+    background-color: #FFD600;
+    color: #000000;
+    padding: .75rem 1rem;
+    border-radius: .5rem;
+    position: absolute;
+    margin-left: 90% ;
+}
+footer{
+    font-family: 'Poppins';
+}

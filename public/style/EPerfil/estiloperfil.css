@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+.todo-el-cont{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  background-color: #969696;
+}
+.allperfil{
+  padding: 30px;
+  margin: 30px 30px 60px 30px;
+  width: 60%;
+  border: solid 20px #FFD600;
+  border-radius: 2%;
+  box-shadow: 0 20px 30px #000;
+  background-color: #ffffff;
+}
+
+.titulo-perfil{ 
+  display: flex;
+  justify-content: center;
+}
+.box-titulos{
+  margin-bottom: 20px;
+  padding: 20px 0;
+  border: solid 2px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Poppins';
+}
+.titulo-perfil h1{
+  font-size: 40px;
+}
+.titulo-perfil p{
+  font-size: 20px;
+}
+
+/* Cerrar sesión boton */
+
+.content-top{
+  display: flex;
+}
+.div-btn{
+  padding-left: 86%;
+}
+.btn-cerrar-sesión{
+  display: flex;
+  width: 120px;
+  height: 40px;
+  background-color: #FFD600;
+  color: #000000;
+  border-radius: .5rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins';
+  font-size: 12px;
+}
+
+
+/* Contenido de info */
+
+.cont-info{
+  margin: 0;
+  padding: 0;
+}
+     /* Foto */
+
+.foto-info{
+  display: grid;
+  grid-template-columns: 2fr 5fr; /* Divide en dos columnas de igual ancho */
+  gap: 10px; /* Espacio entre las columnas */
+}
+
+.foto-izq, .info-user{
+  padding: 10px;
+  font-family: 'Poppins';
+}
+
+.foto-izq{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image{
+  width: 120px;
+  height: 120px;
+}
+.box-foto{
+  padding-bottom: 40px;
+}
+.box-editar{
+  text-align: center;
+}
+
+     /* Info-User */
+
+.info-user{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.div-info-user{
+  padding: 16px;
+}
+.nombre-doc, .correo-numero{
+  display: flex;
+  margin: 10px 0;
+  gap: 16px;
+  justify-content: center;
+  font-size: larger;
+}
+.box-title{
+  z-index: 1;
+  position: absolute;
+  top: 4%;
+}
+.box-infopers{
+  z-index: 2;
+}
+.nombre-doc .nombre, .doc{
+  display: flex;
+  position: relative;
+  height: 120px;
+  width: 300px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: solid 4px #969696;
+  border-radius: 5%;
+  background-color: #ffffff;
+
+}
+.correo-numero .correo, .numero{
+  display: flex;
+  position: relative;
+  height: 120px;
+  width: 300px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: solid 4px #969696;
+  border-radius: 5%;
+  background-color: #ffffff;
+}
+
+/* Footer */
+footer{
+  font-family: 'Poppins';
+}

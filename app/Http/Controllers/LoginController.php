@@ -8,7 +8,13 @@ class LoginController extends Controller
 {
     public function verlogin()
     {
-        return view('Home.indlogin');
+        return view('Login.indlogin');
+    }
+
+    public function verregister()
+    {
+        
+        return view ('Login.indregister');
     }
     
 }

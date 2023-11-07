@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.content-todoabso{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    display: block;
+} 
+
+/*encabezado pro*/
+.Encabezadospro{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.contenedorPRO{
+    text-align: left;
+}
+.progreso{
+    width: 250px;
+    margin: 10px;
+}
+
+.contenedorPlan{
+    text-align: center;
+}
+.planD{
+    width: 200px;/*tamaño*/
+    margin: 10px;
+}
+.contenedorcalen{
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 12%;
+}
+.calenNom{
+    width: 100px;/*tamaño*/
+    margin-right: 5px; 
+    margin-top: 0px;
+}
+.calenImag{
+    width: 100px;/*tamaño*/
+    margin-right: 5px; 
+    margin-top: -20px;
+}
+/* cierre Encabezadospro */
+
+/* Caja Madre */
+.caja-madre{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    
+}
+/* CIRCULAR*/
+
+@keyframes rellenar{
+    to{
+        stroke-dasharray: var(--porcentaje) 100;
+    }
+}
+
+.porcenCIR{
+    position: relative;
+    margin-right: 5px;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 200px;
+}
+.porcenCIR svg{
+    width: 400px;
+    height: 400px;
+}
+
+.infoKcal{
+    position: absolute;
+    bottom: 160px;
+
+}
+.porcenCIR span{
+top:50%;
+left: 0%;
+right: 55%;
+display:flex;
+font: 30px/1rem verdana;
+padding-bottom: 20px;
+
+}
+.porcenCIR p{
+line-height: 20%;
+display:flex;
+justify-content:center;
+font: 25px/1rem verdana;
+}
+
+.porcenCIR circle{
+    fill:none;
+    stroke-width: 20;
+    transform:rotate(-90deg);
+    transform-origin: 50%;
+    stroke-dasharray:100 100;
+    stroke:#A6A6A6;
+    border-radius: 50%;
+
+}
+.porcenCIR circle:nth-child(2){
+    stroke: #FFD600;
+    stroke-dasharray: 0 100;
+    animation:rellenar .90s forwards;
+
+}
+
+/* porcentaje barras*/
+.caja-padre{
+    width: 45%;
+    min-width: 590px;
+    
+}
+
+.contenedor{
+    width: 90%;
+    padding: 30px 30px 50px;
+    background: #Fff;
+    border: 2px solid rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+    
+}
+
+.contenedor *{
+    font-family: sans-serif;
+    
+}
+
+.contenedor h2{
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.contenedor h1{
+    margin-bottom: 10px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.contenedor h3{
+        margin-top:-50px;
+        margin-bottom: 20px;
+        letter-spacing: 0px;
+        text-align: right;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    
+
+
+.contenedor span{
+        margin-top: -20px;
+    }
+
+
+.contenedor p{
+        margin-top: -20px;
+    }
+
+
+.contenedor .detalles:not(:last-child){
+    margin-bottom:50px;
+}
+
+.contenedor .porcentaje{
+width:100%;
+display: flex;
+justify-content: space-between;
+margin-bottom: 10px;
+}
+
+.contenedor .menu{
+    position: relative;
+    border: 1px solid #FFD600;
+    border-radius: 20px;
+}
+.contenedor .menu div{
+    position: relative;
+    width: 0;
+    height: 8px;
+    border-radius: 10px;
+    background-color:#FFD600;
+}
+
+/*animacion barras*/
+.contenedor #prot-menu{
+    animation: proteina-barra 2s forwards;
+}
+
+@keyframes proteina-barra{
+    100%{
+        width: 50%;
+    }
+}
+.contenedor #carbs-menu{
+    animation: carbs-barra 2s forwards;
+}
+
+@keyframes carbs-barra{
+    100%{
+        width: 40%;
+    }
+}
+
+.contenedor #grasas-menu{
+    animation: grasas-barra 2s forwards; 
+}
+
+@keyframes grasas-barra{
+    100%{
+        width: 30%;
+    }
+}
+
+.contenedor .contenedorImag{
+    display:flex;
+    flex-direction: column;
+    justify-self: end;
+}
+/* boton check box*/
+.mycheckbox input:checked ~ span::after{
+    background: rgb(12, 167, 12);
+    transform: scale(0.85) translate(35px);
+  }
+  .mycheckbox input:checked ~ span .on{
+    transform: translate(30px);
+    opacity: 1;
+  }
+  
+  .mycheckbox input:checked ~ span .off{
+    transform: translate(30px);
+    opacity: 0;
+  }
+  
+  .mycheckbox input:checked ~ span .on-bell{
+    transform: translate(31px);
+  }
+  
+  .mycheckbox input {
+    display: none;
+  }
+  
+  .mycheckbox span {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    border-radius: 30px;
+    background: rgb(187, 186, 186);
+    cursor: pointer;
+    box-shadow: inset 0px 0px 2px rgb(15, 15, 15);
+    left: 220px;
+    top: 30px;
+  
+    position: relative;
+  }
+ 
+  .mycheckbox span::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    transform: scale(0.85);
+    border-radius: 30px;
+    background: rgb(248, 22, 22);
+    transition: 0.5s;
+    box-shadow: inset 0px 0px 2px rgb(37, 37, 37);
+  }
+  
+  .mycheckbox i {
+    position: absolute;
+    left: 7px;
+    top: 7px;
+    z-index: 1;
+    color: white;
+    transition: 0.5s;
+  }
+  
+  .mycheckbox .on {
+    opacity: 0;
+    left: 7px;
+    top: 7px;
+  }
+  
+  .mycheckbox .off {
+    left: 9px;
+    top: 7px;
+  }
+  
+  .mycheckbox .off-bell {
+    left: 5px;
+}
+ /*Desayuo*/
+ .comida{
+    text-align: center;
+ }
+ .desayuno{
+    width: 250px;/*tamaño*/
+    
+ } 
+/*carrusel comida*/
+
+h4, h2,small,a{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.Carousel{
+    width: 100%;
+    margin: 0px 60px;
+}
+.Carousel h2{
+    font-size: 26px;
+    line-height: 38px;
+    padding-bottom: 24px;
+    opacity: .9;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+/* images */
+
+.direction{
+    text-align: center;
+}
+.direction button{
+    font-family: cursive;
+    font-weight: bold;
+    background-color: #ffffff44;
+    border:none;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    transition: 0.5s;
+    margin:0 10px;
+}
+.direction button:hover{
+    background-color: #ffffff;
+}
+
+.item{
+    border-radius: 15px;
+    width:300px;
+    height:500px;
+    background-image: linear-gradient(to top, #fdfeff, #ECECF2);
+    overflow: hidden;
+    transition: 0.5s;
+    margin:10px;
+    scroll-snap-align: start;
+    
+}
+
+.item:hover{ 
+    padding-block: 6px;
+}
+
+.item .avatar{
+    display: block;
+    margin:50px auto 10px;
+    width:200px;
+    height:200px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 10px 15px #7e878d;
+}
+
+.item .content{
+    padding:30px;
+    font-family: monospace;
+}
+
+.item .content table td{
+    padding:10px 0;
+    border-bottom: 1px solid #AEC0CE;
+}
+.item .content table td:nth-child(2){
+    text-align: right;
+    
+}
+.item .nameGroup{
+    text-align: center;
+    border-bottom:none!important;
+}
+#list{
+    display: flex;
+    width:max-content;
+}
+#formList{
+    width:1280px;
+    max-width: 100%;
+    overflow: auto;
+    margin:100px auto 50px;
+    scroll-behavior: smooth;
+    scroll-snap-type: both;
+}
+#formList::-webkit-scrollbar{
+    display: none;
+}
+@media screen and (max-width: 1024px){
+    .item{
+        width: calc(33.3vw - 20px);
+    }
+    .direction{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px){
+    .item{
+        width: calc(50vw - 20px);
+    }
+    .direction{
+        display: none;
+    }
+}
+footer{
+    font-family: 'Poppins';
+}
+.social-link i{
+   padding-top: 12px;
+}
